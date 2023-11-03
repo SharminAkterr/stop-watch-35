@@ -27,5 +27,6 @@ const restartHandler = () => {
     num = 0
     const p = document.querySelector('#button-output p');
     p.innerText = num;
-    console.log(num)
+    console.log(num);
+    startHandler();
 }
