@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.2/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-center text-6xl font-bold my-20">Stop Watch</h1>
+    </header>
+    <main>
+        <div class="container mx-auto flex justify-center items-center gap-20 my-10">
+            <button onclick="startHandler()" class="btn bg-lime-300 text-xl font-semibold">Start</button>  
+            <button onclick="stopHandler()" class="btn bg-red-300 text-xl font-semibold">Stop</button>
+            <button onclick="restartHandler()" class="btn bg-orange-300 text-xl font-semibold">Restart</button>
+        </div>
+        
+        <div id="button-output" class="text-xl text-center font-bold mb-10">
+           
+        </div>
+        
+    </main>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
